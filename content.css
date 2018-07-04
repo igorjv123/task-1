@@ -1,0 +1,97 @@
+.content{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 290px);
+    grid-gap: 15px; 
+    justify-content: space-between;
+}
+.post{
+    width: 290px;
+    box-shadow: 0 0 3px 1px #ddd;
+    min-height: 300px;
+    max-height: 420px;
+    border-radius: 2px;     
+    color: 	#404040;
+    
+}
+.post img{
+    width: 290px;
+}
+.parent {
+  width: 290px; 
+  height: 290px;
+}
+.first{
+    background-image: url("images/posts/bulka-esc.jpg");
+}
+.second{
+    background-image: url("images/posts/bulka-scnd.jpg");
+}
+.third{
+    background-image: url("images/posts/bulka-thrd.jpg");
+}
+.fourth{
+    background-image: url("images/posts/bulka-esc.jpg");
+}
+.fifth{
+    background-image: url("images/posts/bulka-esc.jpg");
+}
+.child {
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  background-position: center;
+
+  background-size: 100%;
+    transition: 500ms;
+  
+}
+.parent:hover .child,
+.parent:focus .child {
+   background-size: 150%;
+}
+
+.post>h4{
+    text-align: left;
+    margin: 5px 5px 0 5px;
+}
+.post-author{
+    color:#808080;
+    font-size: 11px;
+    margin: 0 0 0 5px;
+}
+.post-details{
+    font-size: 13px;
+    margin: 0 0 0 5px;
+}
+.post-details hr{
+    margin: 5px;
+}
+.post-info{
+    display: inline;
+    line-height: 13px;
+    color:#808080;
+    font-size: 11px;
+    margin: 0 5px;
+    margin-top: -15px;
+    padding-bottom: 5px;
+   
+}
+.post-info>a{
+    float: right;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #404040;
+}
+.post-info>a:hover{
+    color: #ccc;
+}
+.post-info>span{
+    margin-top: -5px;
+}
+.post-info>img{
+    width: 13px;
+    padding: 0;
+    margin-bottom: -2px;
+    transition: transform .2s;  
+}

@@ -1,0 +1,23 @@
+.footer{
+    align-content: center;
+    box-shadow: 0 0 3px 2px #ddd;
+    border-radius:3px;
+    grid-column: 1/3;
+    padding: 10px;    
+}
+.foo-title{
+    grid-column: 3;
+    float: right;
+    color: #404040;
+}
+.footer>p{
+    color: #404040;
+    position: absolute;
+    padding-top: 50px;
+    font-size: 13px;
+}
+.footer>img{
+    height: 70px; 
+    float: right; 
+    grid-column: 3;
+}
